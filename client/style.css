@@ -1,0 +1,14 @@
+/* styles */
+
+/* resets */
+
+/* layout */
+.page {
+	grid-template-areas: "header header header";
+	color: blue;
+}
+.header {
+	grid-area: header;
+
+	position: relative;
+}

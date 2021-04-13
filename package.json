@@ -1,14 +1,26 @@
 {
-	"name": "flightcenter-email",
+	"name": "my-webpack-project",
 	"version": "1.0.0",
-	"description": "",
+	"description": "My webpack project",
 	"main": "index.js",
 	"scripts": {
-		"serve": "nodemon server.js"
+		"dev": "webpack serve",
+		"start": "nodemon server.js"
 	},
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"express": "^4.17.1"
+		"express": "^4.17.1",
+		"nodemon": "^2.0.7"
+	},
+	"devDependencies": {
+		"@webpack-cli/generators": "^2.0.0",
+		"css-loader": "^5.2.1",
+		"html-webpack-plugin": "^5.3.1",
+		"prettier": "^2.2.1",
+		"style-loader": "^2.0.0",
+		"webpack": "^5.31.2",
+		"webpack-cli": "^4.6.0",
+		"webpack-dev-server": "^3.11.2"
 	}
 }
